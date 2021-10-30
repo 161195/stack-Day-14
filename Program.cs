@@ -6,7 +6,11 @@ namespace stack_Day14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to stack World!");
+            StackLinkedList stacks = new StackLinkedList();
+            stacks.Push(70);
+            stacks.Push(30);
+            stacks.Push(56);
+            stacks.Display();
         }
     }
 }
