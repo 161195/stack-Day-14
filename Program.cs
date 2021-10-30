@@ -11,6 +11,9 @@ namespace stack_Day14
             stacks.Push(30);
             stacks.Push(56);
             stacks.Display();
+            stacks.IsEmpty();
+            stacks.Display();                   //this shows that the stack is empty
+
         }
     }
 }
